@@ -1,0 +1,9 @@
+
+npm install -D typescript
+npm install -D ts-node
+
+Roda os script
+npm run {comando-especifico}
+
+Executa o codigo após cada alteração
+node --import=tsx --watch ./src/index.ts
