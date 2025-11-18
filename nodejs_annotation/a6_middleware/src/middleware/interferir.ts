@@ -11,6 +11,5 @@ export const interferir:RequestHandler = (req,res,next) => {
     if(!logged) {
         return res.status(403).json({erro:'not logged'});
     }
-
     next();
 }
